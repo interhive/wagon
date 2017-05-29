@@ -8,12 +8,12 @@ gem 'rb-fsevent', '~> 0.9.1'
 # Development
 # gem 'locomotivecms_common', github: 'locomotivecms/common', ref: '257047b', require: false
 # gem 'locomotivecms_coal',   github: 'locomotivecms/coal',   ref: 'f4ff435', require: false
-# gem 'locomotivecms_steam',  github: 'locomotivecms/steam',  ref: 'b1feb8b', require: false
+gem 'locomotivecms_steam',  git: 'https://github.com/interhive/steam',  branch: 'per-site-asset-host', require: false
 # gem 'duktape', github: 'judofyr/duktape.rb', ref: '20ef6a5'
 
 # Local development
 # gem 'locomotivecms_coal', path: '../gems/coal', require: false
-# gem 'locomotivecms_steam', path: '../gems/steam', require: false
+# gem 'locomotivecms_steam', path: '/Users/cgrant/Code/locomotive/development/steam', require: false
 # gem 'locomotivecms_common', path: '../gems/common', require: false
 
 group :development, :test do
